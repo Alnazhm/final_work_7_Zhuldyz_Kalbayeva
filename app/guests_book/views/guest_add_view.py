@@ -6,12 +6,12 @@ def guest_add_view(request):
     form = GuestForm()
     if request.method == 'GET':
         context = {'form': form}
-        return render(request, 'add_guest.html', context)
+        return render(request, 'index.html', context)
     form = GuestForm(request.POST)
     if not form.is_valid():
         context = {
             'form': form
         }
-        return render(request, 'add_guest.html', context)
+        return render(request, 'index.html', context)
     guest = Guests.objects.create(**form.cleaned_data)
     return redirect('index')
