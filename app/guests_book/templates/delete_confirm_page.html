@@ -9,7 +9,9 @@
 <p> Текст -  {{ guest.description }}</p>
 <form action="{% url 'confirm_delete' guest.pk  %}" method="POST">
 {% csrf_token %}
-    <input type="submit" value="Yes">
-    <a href="{% url 'index' %}">No</a>
+    <div class="btn-group ms-5" role="group" aria-label="Basic example">
+      <button type="submit" class="btn btn-primary">Да</button>
+      <a href="{% url 'index' %}" class="btn btn-info" role="button">Нет</a>
+    </div>
 </form>
 {% endblock %}
