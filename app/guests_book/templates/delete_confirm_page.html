@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}
+Подтверждение удаления
+{% endblock %}
+{% block content %}
+<h1>Вы точно хотите удалить?</h1>
+<p> Имя -  {{ guest.author }}</p>
+<p> Email - {{ guest.email }}</p>
+<p> Текст -  {{ guest.description }}</p>
+<form action="{% url 'confirm_delete' guest.pk  %}" method="POST">
+{% csrf_token %}
+    <input type="submit" value="Yes">
+    <a href="{% url 'index' %}">No</a>
+</form>
+{% endblock %}
