@@ -3,12 +3,12 @@
   "model": "guests_book.guests",
   "pk": 1,
   "fields": {
-    "author": "Zhuldyz Kalbayeva",
+    "author": "Zhuldyz",
     "email": "kalbayevazh@gmail.com",
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "status": "Active",
     "created_at": "2022-10-01T06:44:35.826Z",
-    "changed_at": "2022-10-01T07:15:15.786Z",
+    "changed_at": "2022-10-01T09:08:17.492Z",
     "is_deleted": false,
     "deleted_at": null
   }
@@ -51,6 +51,20 @@
     "status": "Blocked",
     "created_at": "2022-10-01T08:13:53.301Z",
     "changed_at": "2022-10-01T08:13:53.301Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "guests_book.guests",
+  "pk": 6,
+  "fields": {
+    "author": "Aselya",
+    "email": "asselya@gmail.com",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non ex luctus arcu consectetur vehicula. Morbi ut sapien in lacus porta dapibus.",
+    "status": "Active",
+    "created_at": "2022-10-01T09:43:15.641Z",
+    "changed_at": "2022-10-01T09:55:33.820Z",
     "is_deleted": false,
     "deleted_at": null
   }
