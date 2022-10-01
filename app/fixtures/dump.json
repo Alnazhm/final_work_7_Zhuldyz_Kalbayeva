@@ -1,0 +1,76 @@
+[
+{
+  "model": "guests_book.guests",
+  "pk": 1,
+  "fields": {
+    "author": "Zhuldyz Kalbayeva",
+    "email": "kalbayevazh@gmail.com",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "status": "Active",
+    "created_at": "2022-10-01T06:44:35.826Z",
+    "changed_at": "2022-10-01T07:15:15.786Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "guests_book.guests",
+  "pk": 3,
+  "fields": {
+    "author": "Ulday",
+    "email": "ulday@gmail.com",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non ex luctus arcu consectetur vehicula. Morbi ut sapien in lacus porta dapibus.",
+    "status": "Active",
+    "created_at": "2022-10-01T08:12:03.957Z",
+    "changed_at": "2022-10-01T08:13:06.460Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "guests_book.guests",
+  "pk": 4,
+  "fields": {
+    "author": "Murat",
+    "email": "murat@gmail.com",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non ex luctus arcu consectetur vehicula. Morbi ut sapien in lacus porta dapibus.",
+    "status": "Active",
+    "created_at": "2022-10-01T08:12:59.940Z",
+    "changed_at": "2022-10-01T08:48:27.350Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "guests_book.guests",
+  "pk": 5,
+  "fields": {
+    "author": "Zhadyra",
+    "email": "zhadyra@gmail.com",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent non ex luctus arcu consectetur vehicula. Morbi ut sapien in lacus porta dapibus.",
+    "status": "Blocked",
+    "created_at": "2022-10-01T08:13:53.301Z",
+    "changed_at": "2022-10-01T08:13:53.301Z",
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$J7evI5kEuzeNBrLq4G9Ns6$QasurJDZdjzFc2lhRrOVeLQrx2p0S4vu0phV4d2U1YE=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "root",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-10-01T06:10:42.180Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
